@@ -11,11 +11,6 @@ const int inf = -1;
 //! @param[in]  c  c-coefficient
 //! @param[out] x1 Pointer to the 1st root
 //! @param[out] x2 Pointer to the 2nd root
-//!
-//! @return Number of roots
-//!
-//! @note In case of infinite number of roots,
-//!       returns INF_ROOTS.
 //----------------------------------------------
 
 int SolveSquare(double a, double b, double c, double* x1, double* x2)
