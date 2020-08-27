@@ -88,7 +88,7 @@ int main()
         case inf: printf("This equation has infinite amount of roots.\n");
                 break;
 
-        default: printf("ERROR!\nThis equation has %lg roots.", k);
+        default: printf("ERROR!");
     }
 
     return 0;
